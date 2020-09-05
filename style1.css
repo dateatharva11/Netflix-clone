@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+/*body{
+    font-family: Helvetica, Arial, sans-serif;
+/*    background: #000;*/
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(images/bg.jpg);
+}*/
+/*
+header{
+    color: #fff;
+    text-align: right;
+    top:0;
+    display: inline;
+    display: flex;
+}
+*/
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.sign-in{
+    padding: 7px 17px;
+    color: #fff;
+    text-decoration: none;
+    background: #E50914;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.sign-in:hover{
+    background: #F40612;
+    cursor: pointer;
+}
+.main-page{
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 5em;
+}
+h3{
+    margin-top: 25px;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.days-30{
+    background: #E50914;
+    border-style: none;
+    font-size: 1.8em;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 45px;
+    padding: 25px 60px;
+    border-radius: 5px;
+}
+.days-30:hover{
+    background: #F40612;
+    cursor: pointer;
+}
+.icon{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+.main-page p{
+    margin: 25px;
+    font-size: 20px;
+}
+.main-page p a{
+    color: #fff;
+    font-weight: 700;
+}
+footer, footer a{
+    color: #929292;
+    text-decoration: none;
+}
+footer a{
+    font-size: 13px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer ul li{
+    display: inline;
+    padding: 20px;
+    
+}
+#footer{
+    margin: 150px auto 0;
+    text-align: center;
+    background: #181818;
+    padding: 30px 0;
+    
+}
+footer p{
+    margin-top: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+footer p span{
+    color:#E50914;
+    letter-spacing: 1px;
+} 
+/*********************************
+SIGN-IN
+*********************************/
+.sign-in-div{
+    width: 450px;
+    height: 570px;
+    background:#000;
+    margin: 0 auto;
+    opacity: 0.9;
+    padding: 60px;
+}
+.sign-up-div{
+    width: 450px;
+    height: 570px;
+    background:white;
+    margin: 0 auto;
+    opacity: 0.9;
+    padding: 60px;
+}
+.sign-in-div  h2{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.sign-up-div h3{
+    color: black;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+.sign-in-div .email,
+.sign-in-div .password{
+    background: #333;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border-style: none;
+    font-size: 17px;
+    width: 100%;
+    color: #fff;
+
+}
+
+.sign-up-div .email, 
+.sign-up-div .password{
+    background: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border-color: black;
+    font-size: 17px;
+    width: 100%;
+    color: white;
+}
+
+.sign-in-div .email,
+.sign-up-div .email{
+    margin-bottom: 15px;
+}
+.sign-button{
+    background: #E50914;
+    border-style: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 40px;
+    padding: 15px 100px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.sign-button:hover{
+    cursor: pointer;
+}
+.fb{
+    color: #929292;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.new{
+    color: #929292;
+    margin-top: 20px;
+}
+.new a{
+    color: #fff;
+    text-decoration: none;
+}
+.new a:hover{
+    text-decoration: underline;
+}
+.f-icon{
+    color: #3B579D;
+    font-size: 50px;
+}
+/********************************************
+********************************************/
+ .main-container{
+    background: #181818;
+    padding-left: 35px;
+}
+
+.main-page-header{
+    background: #000;
+}
+#main-page-footer{
+    background: #181818;
+/*    padding: 150px auto 0;*/
+    text-align: center;
+    padding: 30px 0;
+}
+.row{
+    margin-bottom: 50px;
+}
+.main-container p{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.last-div{
+    padding-bottom:  100px;
+    background-color: #181818;
+}
+.block{
+    margin-right: 15px;
+}
+h4{
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 300;
+    margin-bottom: 20px;
+} 
